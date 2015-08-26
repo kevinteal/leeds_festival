@@ -355,6 +355,136 @@ tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, fin
 		});
 	db.transaction(function (tx) {	
 	
+	// (MC)
+	tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (287, "Matt Richardson", "Alternative Stage", 20150828, 1200, 1215, 0, 8, "Friday")');
+	tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (288, "Propaganda DJ", "Alternative Stage", 20150828, 2230, 0230, 0, 8, "Friday")');
+	tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (289, "Mark Grist", "Alternative Stage", 20150827, 1900, 1920, 0, 8, "Thursday")');
+	
+	tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (290, "Carl Hutchinson", "Alternative Stage", 20150829, 1200, 1215, 0, 8, "Saturday")');
+	//Friday
+//Saturday
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (291, "Eden (film)", "Alternative Stage", 20150829, 1800, 1945, 0, 8, "Saturday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (292, "Transgressive Soundsystem", "Alternative Stage", 20150829, 2130, 2230, 0, 8, "Saturday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (293, "Dj Target", "Alternative Stage", 20150829, 2230, 2330, 0, 8, "Saturday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (294, "Wiley", "Alternative Stage", 20150829, 2330, 0015, 0, 8, "Saturday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (295, "Madam X", "Alternative Stage", 20150829, 0015, 0115, 0, 8, "Saturday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (296, "Bless (dj Set)", "Alternative Stage", 20150829, 0115, 0230, 0, 8, "Saturday")');
+//Sunday
+//Friday
+//Saturday
+//Sunday
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (297, "Iain Stirling", "Alternative Stage", 20150830, 1200, 1215, 0, 8, "Sunday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (298, "Kurt Cobain: Montage Of Heck (film)", "Alternative Stage", 20150830, 1705, 1920, 0, 8, "Sunday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (299, "Transgressive Soundsystem", "Alternative Stage", 20150830, 2200, 2300, 0, 8, "Sunday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (300, "Novelist", "Alternative Stage", 20150830, 2300, 2330, 0, 8, "Sunday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (301, "Jackmaster", "Alternative Stage", 20150830, 2330, 0030, 0, 8, "Sunday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (302, "Mele Ft. Slick Don", "Alternative Stage", 20150830, 0030, 0130, 0, 8, "Sunday")');
+tx.executeSql('INSERT INTO bands_101 (id, band_name, stage, day, start_time, finish_time, band_fav, stage_rank, day_name) VALUES (303, "Bless (dj Set)", "Alternative Stage", 20150830, 0130, 0230, 0, 8, "Sunday")');
+	
+	
+		tx.executeSql(' UPDATE bands_101 SET start_time=1200, finish_time=1230 WHERE band_name="The Six" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1245, finish_time=1315 WHERE band_name="Petite Meller" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1330, finish_time=1415 WHERE band_name="99 Souls" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1430, finish_time=1530 WHERE band_name="Tcts" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1535, finish_time=1605 WHERE band_name="Snakehips" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1620, finish_time=1650 WHERE band_name="Maribou State Live" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1655, finish_time=1745, band_name="Evian Christ" WHERE id=66 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1750, finish_time=1825 WHERE band_name="Rustie" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1845, finish_time=1925, band_name="Blonde" WHERE id=68 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1935, finish_time=2035, band_name="Brodinski" WHERE id=69 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2050, finish_time=2140 WHERE band_name="Hudson Mohawke" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2200, finish_time=2300 WHERE band_name="Boy Better Know" ');
+		
+		
+		tx.executeSql(' UPDATE bands_101 SET start_time=1245, finish_time=1315 WHERE band_name="The Ramona Flowers" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1330, finish_time=1400 WHERE band_name="All We Are" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1415, finish_time=1500 WHERE band_name="Ferdinand Weber" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1500, finish_time=1530 WHERE band_name="Hayden James" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1535, finish_time=1630 WHERE band_name="Toyboy & Robin" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1635, finish_time=1710 WHERE band_name="My Nu Leng" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1715, finish_time=1745 WHERE band_name="Jacob Plant" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1750, finish_time=1850 WHERE band_name="Porter Robinson" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1855, finish_time=1955 WHERE band_name="Dillon Francis" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2000, finish_time=2045 WHERE band_name="Hannah Wants" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2050, finish_time=2130 WHERE band_name="Camo & Krooked" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2200, finish_time=2300 WHERE band_name="Wilkinson" ');
+
+tx.executeSql(' UPDATE bands_101 SET start_time=1200, finish_time=1225 WHERE band_name="Cardiknox" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1235, finish_time=1300 WHERE band_name="Riptide Movement" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1315, finish_time=1345 WHERE band_name="Ftse" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1400, finish_time=1430 WHERE band_name="Ben Khan" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1445, finish_time=1515 WHERE band_name="Elliphant" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1530, finish_time=1615 WHERE band_name="Dj Fresh" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1615, finish_time=1700, band_name="Dimension X Kove" WHERE id=90 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1700, finish_time=1750, band_name="Second City" WHERE id=91 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1805, finish_time=1840 WHERE band_name="Tourist" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1900, finish_time=1945 WHERE band_name="Charli Xcx" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2000, finish_time=2100 WHERE band_name="Kevin Saunderson" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2100, finish_time=2230 WHERE band_name="Mk" ');
+
+tx.executeSql(' UPDATE bands_101 SET start_time=1320, finish_time=1350 WHERE band_name="Lady Leshurr" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1405, finish_time=1435 WHERE band_name="Isaiah Dreads" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1450, finish_time=1520 WHERE band_name="Ratking" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1535, finish_time=1605 WHERE band_name="Fekky" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1620, finish_time=1650, band_name="Dope D.o.d" WHERE id=182 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1705, finish_time=1740 WHERE band_name="Young Thug" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1755, finish_time=1835 WHERE band_name="Stormzy" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1900, finish_time=1940 WHERE band_name="Krept & Konan" ');
+
+tx.executeSql(' UPDATE bands_101 SET start_time=1330, finish_time=1400 WHERE band_name="Dj Target" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1415, finish_time=1445 WHERE band_name="Bugzy Malone" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1505, finish_time=1605 WHERE band_name="Siobhan Bell" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1620, finish_time=1650, band_name="Star. One" WHERE id=189 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1705, finish_time=1740 WHERE band_name="Pell" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1800, finish_time=1840 WHERE id=191 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1900, finish_time=1940 WHERE band_name="Rae Sremmurd" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2000, finish_time=2045 WHERE band_name="Flatbush Zombies" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2100, finish_time=2145 WHERE band_name="A$ap Ferg" ');
+		
+		tx.executeSql(' UPDATE bands_101 SET start_time=1245, finish_time=1315 WHERE band_name="Remi Miles" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1330, finish_time=1400 WHERE band_name="Nick Brewer" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1415, finish_time=1445 WHERE band_name="Kiko Bun" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1505, finish_time=1605 WHERE band_name="Loyle Carner" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1620, finish_time=1650 WHERE band_name="Craze" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1705, finish_time=1740 WHERE band_name="Tempa T" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1800, finish_time=1840 WHERE band_name="Vince Staples" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1900, finish_time=1940 WHERE band_name="Ms. Dynamite" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2000, finish_time=2040 WHERE band_name="Lethal Bizzle" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2105, finish_time=2150 WHERE band_name="Azealia Banks" ');
+
+tx.executeSql(' UPDATE bands_101 SET start_time=1215, finish_time=1245 WHERE band_name="Dane Baptiste" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1245, finish_time=1315 WHERE band_name="Chris Ramsey" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1320, finish_time=1405 WHERE band_name="Daniel Sloss" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1405, finish_time=1450 WHERE band_name="Seann Walsh" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1450, finish_time=1530 WHERE band_name="Milton Jones" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1535, finish_time=1605 WHERE band_name="Luisa Omielan" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1605, finish_time=1650 WHERE band_name="Russell Kane" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1700, finish_time=1720 WHERE id=256 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1720, finish_time=1800 WHERE band_name="George The Poet" ');
+		
+		tx.executeSql(' UPDATE bands_101 SET start_time=1930, finish_time=2030 WHERE band_name="Adam Buxton" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2030, finish_time=2215 WHERE band_name="Buttoned Down Disco" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2215, finish_time=2315 WHERE band_name="Rave Karaoke" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2315, finish_time=0015 WHERE band_name="Max Cooper" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=0015, finish_time=0145 WHERE band_name="Jaguar Skills" ');
+		
+		
+		tx.executeSql(' UPDATE bands_101 SET start_time=1215, finish_time=1245 WHERE band_name="Piff The Magic Dragon" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1250, finish_time=1330 WHERE band_name="Reginald D. Hunter" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1330, finish_time=1400 WHERE band_name="Joel Dommett" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1400, finish_time=1440 WHERE band_name="Andrew Maxwell" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1445, finish_time=1525 WHERE band_name="Sara Pascoe" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1525, finish_time=1605 WHERE band_name="Paul Chowdhry" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1610, finish_time=1705 WHERE band_name="Andrew Oneill" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1715, finish_time=1800 WHERE band_name="Abandoman" ');
+		
+		tx.executeSql(' UPDATE bands_101 SET start_time=1215, finish_time=1245 WHERE band_name="Paul Mccaffrey" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1245, finish_time=1330 WHERE band_name="Katherine Ryan" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1335, finish_time=1405 WHERE band_name="Alex Edelman" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1405, finish_time=1450 WHERE band_name="Nick Helm" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1455, finish_time=1530 WHERE band_name="Holly Walsh" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1530, finish_time=1600 WHERE band_name="Pete Johansson" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1600, finish_time=1645 WHERE band_name="Stephen K. Amos" ');
 		
 		set_up_main_page();
 	});

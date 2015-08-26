@@ -485,6 +485,53 @@ tx.executeSql(' UPDATE bands_101 SET start_time=1405, finish_time=1450 WHERE ban
 tx.executeSql(' UPDATE bands_101 SET start_time=1455, finish_time=1530 WHERE band_name="Holly Walsh" ');
 tx.executeSql(' UPDATE bands_101 SET start_time=1530, finish_time=1600 WHERE band_name="Pete Johansson" ');
 tx.executeSql(' UPDATE bands_101 SET start_time=1600, finish_time=1645 WHERE band_name="Stephen K. Amos" ');
+
+
+});
+	db.transaction(function (tx) {	
+
+tx.executeSql(' UPDATE bands_101 SET start_time=1900, finish_time=1930 WHERE id=239 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1945, finish_time=2015 WHERE id=240 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2030, finish_time=2100 WHERE id=241 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2120, finish_time=2150 WHERE id=242 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=2215, finish_time=2300 WHERE id=243 ');
+
+tx.executeSql(' UPDATE bands_101 SET start_time=1200, finish_time=1225 WHERE band_name="Narcs" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1245, finish_time=1310 WHERE band_name="Where Fires Are" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1330, finish_time=1355 WHERE band_name="White Room" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1420, finish_time=1445 WHERE band_name="R51" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1505, finish_time=1530 WHERE band_name="Skinner" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1550, finish_time=1615 WHERE band_name="Kit Trigg" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1635, finish_time=1700 WHERE band_name="Willie J Healey" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1720, finish_time=1745 WHERE band_name="Hidden Charms" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1810, finish_time=1835 WHERE band_name="Hyena" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1855, finish_time=1920 WHERE band_name="The Big Moon" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1945, finish_time=2010 WHERE band_name="Childcare" ');
+
+tx.executeSql(' UPDATE bands_101 SET start_time=1200, finish_time=1225 WHERE band_name="Treason Kings" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1245, finish_time=1310 WHERE band_name="The Mallrats" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1330, finish_time=1355 WHERE band_name="Otherkin" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1420, finish_time=1445 WHERE band_name="Return To Rome" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1505, finish_time=1530 WHERE band_name="Life" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1550, finish_time=1615 WHERE band_name="Moon Tourists" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1635, finish_time=1700 WHERE band_name="Martin Luke Brown" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1720, finish_time=1745 WHERE band_name="The Amazons" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1810, finish_time=1835 WHERE band_name="The Jacques" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1855, finish_time=1920 WHERE band_name="Viola Beach" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1945, finish_time=2010 WHERE band_name="Georgia" ');
+
+tx.executeSql(' UPDATE bands_101 SET start_time=1200, finish_time=1225 WHERE band_name="Happy Daggers" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1240, finish_time=1305 WHERE band_name="Samuel S. Parkes" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1320, finish_time=1345 WHERE band_name="Malpas" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1400, finish_time=1425 WHERE id=230 ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1445, finish_time=1510 WHERE band_name="Area 52" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1530, finish_time=1555 WHERE band_name="Crosa Rosa" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1610, finish_time=1635 WHERE band_name="Ducking Punches" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1655, finish_time=1720 WHERE band_name="John Joseph Brill" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1740, finish_time=1805 WHERE band_name="White" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1825, finish_time=1850 WHERE band_name="Demob Happy" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1910, finish_time=1935 WHERE band_name="Clay" ');
+tx.executeSql(' UPDATE bands_101 SET start_time=1955, finish_time=2020 WHERE band_name="Clean Cut Kid" ');
 		
 		set_up_main_page();
 	});
